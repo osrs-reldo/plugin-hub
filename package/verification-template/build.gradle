@@ -104,6 +104,7 @@ dependencies {
 	thirdParty("com.google.inject.extensions:guice-assistedinject:4.1.0") {
 		because "tasks-tracker"
 		exclude group: 'com.google.guava'
+		exclude group: 'com.google.inject'
 	}
 	thirdParty("redis.clients:jedis:4.4.3") {
 		because "voicescape-communication"
